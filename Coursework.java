@@ -7,8 +7,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import javax.swing.event.*;
 
-/* Student Number - 905010
- * Student Name - Benjamin Thomas
+/* Bewith180997
  * 
  * All work is my own and nobody else's. I have used the starting template
  * and methods from the given Java file 'Example.java' from the course notes 
@@ -579,10 +578,7 @@ public class Coursework extends JFrame {
 				}
 			}
 		} else if (axis == 2) { // Front view
-			// This MIP has a different length because the pillow in cthead
-			// interferes
-			// with the image of the skull, making it harder to see clearly
-			for (int w = 0; w < LENGTH - 50; w++) {
+			for (int w = 0; w < LENGTH; w++) {
 				if (cthead[yPos][w][xPos] > maximumValue) {
 					maximumValue = cthead[yPos][w][xPos];
 				}
